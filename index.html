@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anpin Baby | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="navbar" id="header">
+        <div class="logo">
+            <a href="#hero">AB<span>.dev</span></a>
+        </div>
+        <nav class="nav-links" id="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="nav-actions">
+            <button id="theme-toggle" class="btn-icon" aria-label="Toggle Theme">🌙</button>
+            <button id="hamburger" class="btn-icon hamburger" aria-label="Toggle Navigation">☰</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <p class="tagline-sub">Hello, I'm</p>
+                <h1>Anpin Baby</h1>
+                <h2 class="tagline">B.Tech Computer Science & Engineering Student</h2>
+                <p class="bio-short">AI, Data Science, Software Development & Cybersecurity Enthusiast based in Mallappally, Kerala.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+               <img src="images/profile.png" alt="Anpin Baby Profile Picture">
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-container">
+                <p>
+                    Computer Science and Engineering student with a strong interest in Artificial Intelligence, Data Science, Software Development, and Cybersecurity. Passionate about building practical solutions through projects and continuous learning. Eager to apply technical skills, collaborate with teams, and contribute to innovative software solutions that solve real-world problems.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title">Technical & Soft Skills</h2>
+            <div class="skills-grid">
+                
+                <article class="skill-card">
+                    <h3>Programming Languages</h3>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>C</li>
+                        <li>Java</li>
+                    </ul>
+                </article>
+
+                <article class="skill-card">
+                    <h3>Domains & Focus Areas</h3>
+                    <ul class="skill-list">
+                        <li>Cybersecurity</li>
+                        <li>Machine Learning</li>
+                        <li>Data Science</li>
+                    </ul>
+                </article>
+
+                <article class="skill-card">
+                    <h3>Soft Skills & Languages</h3>
+                    <dl class="skill-dl">
+                        <dt>Key Strengths</dt>
+                        <dd>Strong Logical Thinking, Problem Solving, Time Management, Teamwork</dd>
+                        <dt>Languages Spoken</dt>
+                        <dd>English, Malayalam, Hindi (Basic)</dd>
+                    </dl>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title">Featured Projects</h2>
+            
+            <div class="filter-container">
+                <button class="filter-btn active" data-tech="All">All</button>
+                <button class="filter-btn" data-tech="Python">Python</button>
+                <button class="filter-btn" data-tech="AWS">AWS</button>
+                <button class="filter-btn" data-tech="Cyber Security">Cyber Security</button>
+            </div>
+
+            <div id="projects-container" class="projects-grid"></div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h2 class="section-title">Education History</h2>
+            <div class="table-wrapper">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Institution</th>
+                            <th>Degree / Course</th>
+                            <th>Duration / Year</th>
+                            <th>Grade / Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mar Baselios College of Engineering and Technology (Autonomous)</td>
+                            <td>B.Tech. in Computer Science & Engineering</td>
+                            <td>2023 – 2027</td>
+                            <td><strong>9.39 / 10 CGPA</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Mar Dionysius Senior Secondary School, Mallappally (CBSE)</td>
+                            <td>12th Grade (Senior Secondary)</td>
+                            <td>2023</td>
+                            <td><strong>88.40%</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Mar Dionysius Senior Secondary School, Mallappally (CBSE)</td>
+                            <td>10th Grade (Secondary)</td>
+                            <td>2021</td>
+                            <td><strong>95.60%</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section">
+            <h2 class="section-title">Certifications</h2>
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <h3>NPTEL</h3>
+                    <p>Data Science For Engineers</p>
+                </article>
+                <article class="skill-card">
+                    <h3>TCS iON</h3>
+                    <p>Career Edge – Young Professional</p>
+                </article>
+                <article class="skill-card">
+                    <h3>AWS Academy</h3>
+                    <p>Generative AI Foundations</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                
+                <aside class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Feel free to reach out for opportunities, projects, or collaborations!</p>
+                    <ul class="contact-links">
+                        <li><strong>Location:</strong> Mallappally, Kerala</li>
+                        <li><strong>Email:</strong> <a href="mailto:anpinbaby262005@gmail.com">anpinbaby262005@gmail.com</a></li>
+                        <li><strong>Phone:</strong> <a href="tel:+919778367328">+91 9778367328</a></li>
+                        <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/anpin-baby-44b188427" target="_blank" rel="noopener">linkedin.com/in/anpin-baby-44b188427</a></li>
+                    </ul>
+                    <a href="Anpin_resume.pdf" download="Anpin_Baby_Resume.pdf" class="btn btn-primary resume-btn" target="_blank">📄 Download Resume</a>
+                </aside>
+
+                <form id="contact-form" class="contact-form" novalidate>
+                    <h3>Send a Message</h3>
+                    
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" placeholder="Anpin Baby">
+                        <small class="error-msg" id="name-error"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" placeholder="anpinbaby262005@gmail.com">
+                        <small class="error-msg" id="email-error"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Write your message here..."></textarea>
+                        <small class="error-msg" id="message-error"></small>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <div id="form-status" class="form-status"></div>
+                </form>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Anpin Baby. Designed for Web Technology Lab.</p>
+        <p><a href="#hero">Back to Top ↑</a></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
